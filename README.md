@@ -1,3 +1,5 @@
 # Child-Vaccination-Management-System/QUESTION 4
 
+"Please note that the outputs of the code are located in the output folder."
+
 This interface is designed to facilitate the control of vaccination appointments in a visually attractive and person-pleasant manner. The utility capabilities a contemporary-day layout with a gradient historical past and a backdrop-filtered, semi-obvious field that highlights the appointment reserving shape. The shape consists of interactive factors along with date and time selectors, and a prominent "Book Appointment" button. Updates and reminders are displayed in distinct, lively sections to preserve customers informed. Advanced CSS techniques, inclusive of easy transitions and a rotating historical past gradient, beautify the interface`s visible appeal, even as interactive factors function hover and attention consequences for a dynamic person experience. The format is responsive and well-appropriate for each laptop and cellular devices, making sure accessibility and simplicity of use for mother and father handling their kid's vaccination schedules.
