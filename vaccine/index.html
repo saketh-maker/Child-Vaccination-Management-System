@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vaccination Scheduler</h1>
+        <form id="appointment-form">
+            <div class="form-group">
+                <input type="text" id="childName" name="childName" required placeholder=" " />
+                <label for="childName">Child's Name</label>
+            </div>
+            <div class="form-group">
+                <input type="date" id="dob" name="dob" required placeholder=" " />
+                <label for="dob">Date of Birth</label>
+            </div>
+            <div class="form-group">
+                <input type="date" id="vaccDate" name="vaccDate" required placeholder=" " />
+                <label for="vaccDate">Preferred Vaccination Date</label>
+            </div>
+            <div class="form-group">
+                <select id="vaccType" name="vaccType" required>
+                    <option value="" disabled selected>Select Vaccine</option>
+                    <option value="Polio">Polio</option>
+                    <option value="Measles">Measles</option>
+                    <option value="Hepatitis">Hepatitis</option>
+                </select>
+                <label for="vaccType">Vaccination Type</label>
+            </div>
+            <button type="submit" class="btn">Book Appointment</button>
+        </form>
+
+        <div id="updates" class="updates">
+            <h2>Appointment Updates</h2>
+            <ul id="updateList"></ul>
+        </div>
+
+        <div id="reminders" class="reminders">
+            <h2>Upcoming Reminders</h2>
+            <ul id="reminderList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
